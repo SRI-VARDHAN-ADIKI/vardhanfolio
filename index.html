@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#connect">Connect</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1vQtvZ1m2wpzGRQ4-pt3KhQFobbXqCBRf/view?usp=drive_link" download>Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero flex items-center justify-center bg-cover bg-center">
+        <div class="text-center text-gray-700">
+            <h1 class="text-4xl md:text-6xl font-bold">SRI VARDHAN ADIKI</h1>
+            <p class="mt-4 text-lg">I am a passionate developer with skills in web development and design. I love creating beautiful and functional websites</p>
+            <p class="mt-4 text-lg">I am currently pursuing Bachelor Of Technology in Computer Science from KL University,Vijayawada to be graduated in 2027</p>
+            <a href="#projects" class="btn btn-primary mt-6">View My Work</a>
+        </div>
+    </section>
+
+
+    <section id="projects" class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <a href="https://github.com/SRI-VARDHAN-ADIKI" target="_blank" class="text-decoration-none">
+                        <img src="https://cdn.pixabay.com/photo/2016/10/22/00/15/spotify-1759471_1280.jpg" alt="Audio Feel" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold">Audio Feel</h3>
+                            <p class="mt-2">Spotify - clone</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <a href="https://github.com/SRI-VARDHAN-ADIKI" target="_blank" class="text-decoration-none">
+                        <img src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?cs=srgb&dl=pexels-pixabay-261102.jpg&fm=jpg" alt="Hotel Management system" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold">Hotel Management system</h3>
+                            <p class="mt-2">A website to manage hotel bookings</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <a href="https://github.com/SRI-VARDHAN-ADIKI" target="_blank" class="text-decoration-none">
+                        <img src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/39-Food-Delivery-Logos-That-Will-Leave-You-Hungry-For-More/food-delivery-logo-concept-by-kim-barsegyan-dribbble.jpg" alt="KL Eats" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold">KL Eats</h3>
+                            <p class="mt-2">Food delivery app for KL University</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="connect" class="py-12 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold">Connect with Me</h2>
+            <div class="flex justify-center mt-8 space-x-4">
+                <a href="https://github.com/SRI-VARDHAN-ADIKI" class="text-gray-700 hover:text-gray-900" target="_blank">
+                    <i class="fab fa-github fa-2x"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/sri-vardhan-adiki" class="text-blue-700 hover:text-blue-900" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i> LinkedIn
+                </a>
+                <a href="https://twitter.com/yourusername" class="text-blue-400 hover:text-blue-600" target="_blank">
+                    <i class="fab fa-twitter fa-2x"></i> Twitter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-light">
+        <div class="container text-center">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
